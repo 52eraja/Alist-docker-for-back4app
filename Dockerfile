@@ -5,4 +5,3 @@ WORKDIR /opt/alist/
 EXPOSE 5244
 
 CMD [ "./alist", "server", "--no-prefix" ]
-CMD [ "./alist", "admin" ]
